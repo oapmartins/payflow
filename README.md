@@ -48,7 +48,7 @@
 
 ---
 
-   >Esse projeto foi desenvolvido com ❤️ na #NextLevelWeekTogether da **[Rocketseat  💜🚀](https://rocketseat.com.br/)**.<br> 
+   >Esse projeto foi desenvolvido na #NextLevelWeekTogether da **[Rocketseat  💜🚀](https://rocketseat.com.br/)**.<br> 
 
 
 ---
