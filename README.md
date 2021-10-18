@@ -10,7 +10,7 @@
 
 ---
 
-<h2 align="center">Layout 🎨</h2>
+<h2 align="">📱 Preview</h2>
 
    <p align="center">
       <img alt="PayFlow" title="PayFlow" src="https://raw.githubusercontent.com/rocketseat-education/nlw-06-flutter/main/.github/capa.png" />
@@ -18,21 +18,25 @@
 
    <p align="center">
       O Layout foi desenvolvido por <a href="https://instagram.com/tiagoluchtenberg">Tiago Luchtenberg</a>, e você pode acessá-lo no
-   <a href="https://www.figma.com/file/kLK7FYnWKMoN68sQXcSniu/PayFlow">Figma</a> 📱
+   <a href="https://www.figma.com/file/kLK7FYnWKMoN68sQXcSniu/PayFlow">Figma</a> 
    </p>
 
 ---
 
-<h2 align="center">Arquivo no Notion 📋</h2>
+<h2 align="">📋 Arquivo no Notion</h2>
 
 - [Trilha | Flutter](https://www.notion.so/NLW-Together-Conte-dos-complementares-ae22125e899549efb2d4e360b5ee5ca3) 🚀
 
 ---
 
-<h2 align="center">Como Usar 🤔</h2>
+<h2 align="">🤔 Como Usar</h2>
+
+
 
    ```
-   - Clone esse repositório:
+   Configure o ambiente de desenvolvimento na sua máquina: https://flutter.dev/docs/get-started/install
+
+   - Clone o repositório:
    $ git clone https://github.com/rocketseat-education/nlw-06-flutter
 
    - Entre no diretório:
