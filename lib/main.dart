@@ -24,7 +24,7 @@ class _AppFirebaseState extends State<AppFirebase> {
         if (snapshot.hasError) {
           return Material(
             child: Center(
-              child: Text(
+              child: const Text(
                 'Não foi possível inicializar o Firebase',
                 textDirection: TextDirection.ltr,
               ),
