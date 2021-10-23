@@ -81,12 +81,9 @@ class _HomePageState extends State<HomePage> {
                   color: AppColors.primary,
                   borderRadius: BorderRadius.circular(5),
                 ),
-                child: IconButton(
-                  onPressed: () {},
-                  icon: const Icon(
-                    Icons.add_box_outlined,
-                    color: AppColors.background,
-                  ),
+                child: const Icon(
+                  Icons.add_box_outlined,
+                  color: AppColors.background,
                 ),
               ),
             ),
