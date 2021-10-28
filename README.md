@@ -32,7 +32,6 @@
 <h2 align="">🤔 Como Usar</h2>
 
 
-
    ```
    Configure o ambiente de desenvolvimento na sua máquina: https://flutter.dev/docs/get-started/install
 
