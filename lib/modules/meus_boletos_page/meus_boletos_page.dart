@@ -14,48 +14,45 @@ class MeusBoletosPage extends StatefulWidget {
 class _MeusBoletosPageState extends State<MeusBoletosPage> {
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 24),
-      child: Column(
-        children: [
-          Container(
-            height: 80,
-            child: Stack(
-              children: [
-                Container(
-                  color: AppColors.primary,
-                  height: 40,
-                  width: double.maxFinite,
-                ),
-                Align(
-                  alignment: Alignment.bottomCenter,
-                  child: BoletoInfoWidget(size: 14),
-                ),
-              ],
+    return Column(
+      children: [
+        Stack(
+          children: [
+            Container(
+              color: AppColors.primary,
+              height: 40,
+              width: double.maxFinite,
             ),
-          ),
-          Padding(
-            padding: const EdgeInsets.only(top: 24),
-            child: Row(
-              children: [
-                Text(
-                  'Meus Boletos',
-                  style: TextStyles.titleBoldHeading,
-                ),
-              ],
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 24),
+              child: BoletoInfoWidget(size: 14),
             ),
+          ],
+        ),
+        Padding(
+          padding: const EdgeInsets.only(top: 24, left: 24, right: 24),
+          child: Row(
+            children: [
+              Text(
+                'Meus Boletos',
+                style: TextStyles.titleBoldHeading,
+              ),
+            ],
           ),
-          Padding(
-            padding: const EdgeInsets.symmetric(vertical: 24),
-            child: Divider(
-              thickness: 1,
-              height: 1,
-              color: AppColors.stroke,
-            ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(vertical: 24, horizontal: 24),
+          child: Divider(
+            thickness: 1,
+            height: 1,
+            color: AppColors.stroke,
           ),
-          BoletoListWidget()
-        ],
-      ),
+        ),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 24),
+          child: BoletoListWidget(),
+        )
+      ],
     );
   }
 }
